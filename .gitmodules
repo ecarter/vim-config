@@ -1,0 +1,33 @@
+[submodule ".janus/detectindent"]
+	path = .janus/detectindent
+	url = https://github.com/vim-scripts/DetectIndent
+[submodule ".janus/hexhighlight"]
+	path = .janus/hexhighlight
+	url = https://github.com/vim-scripts/hexHighlight.vim
+[submodule ".janus/colorx"]
+	path = .janus/colorx
+	url = https://github.com/seaofclouds/vim-colorx
+[submodule ".janus/syntaxattr"]
+	path = .janus/syntaxattr
+	url = https://github.com/vim-scripts/SyntaxAttr.vim
+[submodule ".janus/vim-jade"]
+	path = .janus/vim-jade
+	url = https://github.com/digitaltoad/vim-jade
+[submodule ".janus/vim-jst"]
+	path = .janus/vim-jst
+	url = https://github.com/briancollins/vim-jst
+[submodule ".janus/vim-less"]
+	path = .janus/vim-less
+	url = https://github.com/groenewege/vim-less
+[submodule ".janus/vim-nerdtree-tabs"]
+	path = .janus/vim-nerdtree-tabs
+	url = https://github.com/jistr/vim-nerdtree-tabs
+[submodule ".janus/vim-stylus"]
+	path = .janus/vim-stylus
+	url = https://github.com/wavded/vim-stylus
+[submodule ".janus/hammer"]
+	path = .janus/hammer
+	url = https://github.com/matthias-guenther/hammer.vim
+[submodule ".janus/fingerpaint"]
+	path = .janus/fingerpaint
+	url = https://github.com/ecarter/fingerpaint.vim
