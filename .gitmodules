@@ -35,3 +35,6 @@
 [submodule ".janus/powerline"]
 	path = .janus/powerline
 	url = https://github.com/ecarter/vim-powerline
+[submodule ".janus/bash"]
+	path = .janus/bash
+	url = https://github.com/vim-scripts/bash-support.vim
