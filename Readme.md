@@ -8,13 +8,14 @@ personal [janus](https://github.com/carlhuda/janus) configuration
 
 ## Plugins
 
-* [DetectIndent](https://github.com/vim-scripts/DetectIndent)
-* [hexHighlight](https://github.com/vim-scripts/hexHighlight.vim)
 * [ColorX](https://github.com/seaofclouds/vim-colorx)
-* [SyntaxAttr](https://github.com/vim-scripts/SyntaxAttr.vim)
-* [NERDTree Tabs](https://github.com/jistr/vim-nerdtree-tabs)
+* [css-color](https://github.com/skammer/vim-css-color)
+* [DetectIndent](https://github.com/vim-scripts/DetectIndent)
 * [Hammer](https://github.com/matthias-guenther/hammer.vim)
+* [hexHighlight](https://github.com/vim-scripts/hexHighlight.vim)
+* [NERDTree Tabs](https://github.com/jistr/vim-nerdtree-tabs)
 * [Powerline](https://github.com/ecarter/vim-powerline)
+* [SyntaxAttr](https://github.com/vim-scripts/SyntaxAttr.vim)
 
 ## Language Support
 
