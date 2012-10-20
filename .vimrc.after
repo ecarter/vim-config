@@ -2,14 +2,16 @@ color fingerpaint
 set hidden
 set guioptions=aAce
 set gfn=DejaVu\ Sans\ Mono:h16
-set listchars=tab:▸\ ,eol:¬
 set t_Co=256
+
+" Invisibles
+set listchars=tab:▸\ ,eol:¬
 
 " Powerline Settings
 let g:Powerline_symbols = 'fancy'
 set guifont=DejaVu\ Sans\ Mono\ for\ Powerline:h16
 
-" folding settings
+" Folding Settings
 set foldmethod=indent
 set foldnestmax=10
 set nofoldenable
