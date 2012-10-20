@@ -15,7 +15,7 @@ color fingerpaint
 set fu
 set fillchars=
 
-set list! " show invibles
+set list " show invibles
 
 " NERDTree settings
 let NERDTreeIgnore=['\.DS_Store$', '\~$']
