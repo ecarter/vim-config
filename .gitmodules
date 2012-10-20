@@ -32,3 +32,6 @@
 [submodule ".janus/fingerpaint"]
 	path = .janus/fingerpaint
 	url = https://github.com/ecarter/fingerpaint.vim
+[submodule ".janus/powerline"]
+	path = .janus/powerline
+	url = https://github.com/ecarter/vim-powerline
