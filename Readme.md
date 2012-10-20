@@ -11,7 +11,6 @@ personal [janus](https://github.com/carlhuda/janus) configuration
 ## Plugins
 
 * [ColorX](https://github.com/seaofclouds/vim-colorx)
-* [css-color](https://github.com/skammer/vim-css-color)
 * [DetectIndent](https://github.com/vim-scripts/DetectIndent)
 * [Hammer](https://github.com/matthias-guenther/hammer.vim)
 * [hexHighlight](https://github.com/vim-scripts/hexHighlight.vim)

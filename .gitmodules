@@ -35,6 +35,3 @@
 [submodule ".janus/powerline"]
 	path = .janus/powerline
 	url = https://github.com/ecarter/vim-powerline
-[submodule ".janus/css-color"]
-	path = .janus/css-color
-	url = https://github.com/skammer/vim-css-color
