@@ -14,6 +14,7 @@ personal [janus](https://github.com/carlhuda/janus) configuration
 * [SyntaxAttr](https://github.com/vim-scripts/SyntaxAttr.vim)
 * [NERDTree Tabs](https://github.com/jistr/vim-nerdtree-tabs)
 * [Hammer](https://github.com/matthias-guenther/hammer.vim)
+* [Powerline](https://github.com/ecarter/vim-powerline)
 
 ## Language Support
 
