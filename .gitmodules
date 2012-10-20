@@ -38,3 +38,4 @@
 [submodule ".janus/bash"]
 	path = .janus/bash
 	url = https://github.com/vim-scripts/bash-support.vim
+  ignore = dirty
