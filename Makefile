@@ -11,6 +11,11 @@ link:
 	@ln -fs `pwd`/.vimrc.after ~/.vimrc.after
 	@ln -fs `pwd`/.gvimrc.after ~/.gvimrc.after
 
+update:
+	@echo "updating dependencies..."
+	@git submodule -q foreach git pull -q origin master
+	@cd ~/.vim; rake
+
 backup:
 	@echo "backing up..."
 	@cp -f ~/.gvimrc.after ~/.gvimrc.after.backed 2>/dev/null || true
@@ -21,4 +26,4 @@ clean:
 	@make backup
 	@rm -rf ~/.gvimrc.after ~/.gvimrc.after ~/.janus
 
-.PHONY: install link
+.PHONY: install link update
