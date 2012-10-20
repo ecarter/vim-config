@@ -16,3 +16,10 @@ set foldmethod=indent
 set foldnestmax=10
 set nofoldenable
 set foldlevel=1
+
+" Commands
+command! HexHighlight :call HexHighlight()
+command! SyntaxAttr :call SyntaxAttr()
+
+" Sounds
+set visualbell t_vb=
