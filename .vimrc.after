@@ -1,13 +1,13 @@
 color desert
 set hidden
 set guioptions=aAce
-set gfn=DejaVu\ Sans\ Mono:h18
+set gfn=DejaVu\ Sans\ Mono:h16
 set listchars=tab:▸\ ,eol:¬
 set t_Co=256
 
 " Powerline Settings
-" let g:Powerline_symbols = 'fancy'
-" set guifont=DejaVu\ Sans\ Mono\ for\ Powerline\ 16
+let g:Powerline_symbols = 'fancy'
+set guifont=DejaVu\ Sans\ Mono\ for\ Powerline:h16
 
 " folding settings
 set foldmethod=indent
