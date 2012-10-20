@@ -27,3 +27,7 @@ personal [janus](https://github.com/carlhuda/janus) configuration
 
 * [fingerpaint](https://github.com/ecarter/fingerpaint.vim)
 
+## Fonts
+
+* [DejaVu Sans Mono](http://dejavu-fonts.org/)
+
