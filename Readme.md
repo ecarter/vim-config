@@ -2,6 +2,8 @@
 
 personal [janus](https://github.com/carlhuda/janus) configuration
 
+![screenshot](https://raw.github.com/ecarter/janus-dotfiles/master/screenshot.png)
+
 ## Install
 
     $ make install
