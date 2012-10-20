@@ -1,6 +1,7 @@
 [submodule ".janus/detectindent"]
 	path = .janus/detectindent
-	url = https://github.com/vim-scripts/DetectIndent
+  url = https://github.com/vim-scripts/DetectIndent
+  ignore = dirty
 [submodule ".janus/hexhighlight"]
 	path = .janus/hexhighlight
 	url = https://github.com/vim-scripts/hexHighlight.vim
