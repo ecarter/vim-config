@@ -1,41 +1,39 @@
-[submodule ".janus/detectindent"]
-	path = .janus/detectindent
-  url = https://github.com/vim-scripts/DetectIndent
-  ignore = dirty
-[submodule ".janus/hexhighlight"]
-	path = .janus/hexhighlight
-	url = https://github.com/vim-scripts/hexHighlight.vim
-[submodule ".janus/colorx"]
-	path = .janus/colorx
-	url = https://github.com/seaofclouds/vim-colorx
-[submodule ".janus/syntaxattr"]
-	path = .janus/syntaxattr
-	url = https://github.com/vim-scripts/SyntaxAttr.vim
-[submodule ".janus/vim-jade"]
-	path = .janus/vim-jade
-	url = https://github.com/digitaltoad/vim-jade
-[submodule ".janus/vim-jst"]
-	path = .janus/vim-jst
-	url = https://github.com/briancollins/vim-jst
-[submodule ".janus/vim-less"]
-	path = .janus/vim-less
-	url = https://github.com/groenewege/vim-less
-[submodule ".janus/vim-nerdtree-tabs"]
-	path = .janus/vim-nerdtree-tabs
-	url = https://github.com/jistr/vim-nerdtree-tabs
-[submodule ".janus/vim-stylus"]
-	path = .janus/vim-stylus
-	url = https://github.com/wavded/vim-stylus
-[submodule ".janus/hammer"]
-	path = .janus/hammer
-	url = https://github.com/matthias-guenther/hammer.vim
-[submodule ".janus/fingerpaint"]
-	path = .janus/fingerpaint
-	url = https://github.com/ecarter/fingerpaint.vim
-[submodule ".janus/powerline"]
-	path = .janus/powerline
-	url = https://github.com/ecarter/vim-powerline
-[submodule ".janus/bash"]
-	path = .janus/bash
+[submodule "plugins/bash-support"]
+	path = plugins/bash-support
 	url = https://github.com/vim-scripts/bash-support.vim
-  ignore = dirty
+[submodule "plugins/hexhighlight"]
+	path = plugins/hexhighlight
+	url = https://github.com/vim-scripts/hexHighlight.vim
+[submodule "plugins/vim-colorx"]
+	path = plugins/vim-colorx
+	url = https://github.com/seaofclouds/vim-colorx
+[submodule "plugins/SyntaxAttr.vim"]
+	path = plugins/SyntaxAttr.vim
+	url = https://github.com/vim-scripts/SyntaxAttr.vim
+[submodule "plugins/vim-jade"]
+	path = plugins/vim-jade
+	url = https://github.com/digitaltoad/vim-jade
+[submodule "plugins/vim-jst"]
+	path = plugins/vim-jst
+	url = https://github.com/briancollins/vim-jst
+[submodule "plugins/vim-less"]
+	path = plugins/vim-less
+	url = https://github.com/groenewege/vim-less
+[submodule "plugins/vim-nerdtree-tabs"]
+	path = plugins/vim-nerdtree-tabs
+	url = https://github.com/jistr/vim-nerdtree-tabs
+[submodule "plugins/vim-stylus"]
+	path = plugins/vim-stylus
+	url = https://github.com/wavded/vim-stylus
+[submodule "plugins/hammer.vim"]
+	path = plugins/hammer.vim
+	url = https://github.com/matthias-guenther/hammer.vim
+[submodule "plugins/vim-powerline"]
+	path = plugins/vim-powerline
+	url = https://github.com/ecarter/vim-powerline
+[submodule "plugins/fingerpaint.vim"]
+	path = plugins/fingerpaint.vim
+	url = https://github.com/ecarter/fingerpaint.vim
+[submodule "plugins/DetectIndent"]
+	path = plugins/DetectIndent
+	url = https://github.com/vim-scripts/DetectIndent
