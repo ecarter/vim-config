@@ -37,3 +37,4 @@
 [submodule "plugins/DetectIndent"]
 	path = plugins/DetectIndent
 	url = https://github.com/vim-scripts/DetectIndent
+	ignore = untracked
