@@ -23,3 +23,7 @@ command! SyntaxAttr :call SyntaxAttr()
 
 " Sounds
 set visualbell t_vb=
+
+" NERDTree
+set autochdir
+let NERDTreeChDirMode=1
