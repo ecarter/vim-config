@@ -1,4 +1,4 @@
-![screenshot](https://raw.github.com/ecarter/janus-dotfiles/master/screenshot.png)
+![screenshot](https://raw.github.com/ecarter/vim-config/master/screenshot.png)
 
 # vim configuration
 
