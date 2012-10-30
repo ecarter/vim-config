@@ -1,4 +1,4 @@
-HOME=~
+USER_HOME=$(HOME)
 
 install: clean janus link
 
@@ -8,23 +8,23 @@ janus:
 
 link:
 	@echo "linking files..."
-	@ln -fs `pwd`/plugins/ $(HOME)/.janus
-	@ln -fs `pwd`/vimrc $(HOME)/.vimrc.after
-	@ln -fs `pwd`/gvimrc $(HOME)/.gvimrc.after
+	@ln -fs `pwd`/plugins/ $(USER_HOME)/.janus
+	@ln -fs `pwd`/vimrc $(USER_HOME)/.vimrc.after
+	@ln -fs `pwd`/gvimrc $(USER_HOME)/.gvimrc.after
 
 update:
 	@echo "updating dependencies..."
 	@git submodule -q foreach git pull -q origin master
-	@cd $(HOME)/.vim; rake
+	@cd $(USER_HOME)/.vim; rake
 
 backup:
 	@echo "backing up..."
-	@cp -f $(HOME)/.gvimrc.after $(HOME)/.gvimrc.after.backed 2>/dev/null || true
-	@cp -f $(HOME)/.vimrc.after $(HOME)/.vimrc.after.backed 2>/dev/null || true
-	@cp -r $(HOME)/.janus $(HOME)/.janus.backed 2>/dev/null || true
+	@cp -f $(USER_HOME)/.gvimrc.after $(USER_HOME)/.gvimrc.after.backed 2>/dev/null || true
+	@cp -f $(USER_HOME)/.vimrc.after $(USER_HOME)/.vimrc.after.backed 2>/dev/null || true
+	@cp -r $(USER_HOME)/.janus $(USER_HOME)/.janus.backed 2>/dev/null || true
 
 clean:
 	@make backup
-	@rm -rf $(HOME)/.gvimrc.after $(HOME)/.gvimrc.after $(HOME)/.janus
+	@rm -rf $(USER_HOME)/.gvimrc.after $(USER_HOME)/.gvimrc.after $(USER_HOME)/.janus
 
 .PHONY: install link update
