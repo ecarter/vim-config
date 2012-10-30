@@ -8,8 +8,8 @@ janus:
 link:
 	@echo "linking files..."
 	@ln -fs `pwd`/.janus ~/.janus
-	@ln -fs `pwd`/.vimrc.after ~/.vimrc.after
-	@ln -fs `pwd`/.gvimrc.after ~/.gvimrc.after
+	@ln -fs `pwd`/vimrc ~/.vimrc.after
+	@ln -fs `pwd`/gvimrc ~/.gvimrc.after
 
 update:
 	@echo "updating dependencies..."
