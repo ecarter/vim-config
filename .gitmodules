@@ -38,3 +38,6 @@
 	path = plugins/DetectIndent
 	url = https://github.com/vim-scripts/DetectIndent
 	ignore = untracked
+[submodule "plugins/processing"]
+	path = plugins/processing
+	url = https://github.com/sophacles/vim-processing.git
