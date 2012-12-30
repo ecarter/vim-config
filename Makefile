@@ -1,6 +1,6 @@
 USER_HOME=$(HOME)
 
-install: clean janus link
+install: clean janus init link
 
 janus:
 	@echo "installing janus..."
@@ -11,6 +11,11 @@ link:
 	@ln -fs `pwd`/plugins/ $(USER_HOME)/.janus
 	@ln -fs `pwd`/vimrc $(USER_HOME)/.vimrc.after
 	@ln -fs `pwd`/gvimrc $(USER_HOME)/.gvimrc.after
+
+init:
+	@echo "initializing dependencies..."
+	@git submodule init
+	@git submodule update
 
 update:
 	@echo "updating dependencies..."
