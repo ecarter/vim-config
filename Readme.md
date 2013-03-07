@@ -31,6 +31,7 @@ Backup current `~/.janus` directory, update git submodules, and run `rake` on [j
 
 * [ColorX](https://github.com/seaofclouds/vim-colorx) - OSX color picker
 * [DetectIndent](https://github.com/vim-scripts/DetectIndent) - tame tabs and spaces
+* [vim-gitgutter](https://github.com/airblade/vim-gitgutter) - diff while you diff
 * [Hammer](https://github.com/matthias-guenther/hammer.vim) - markdown preview
 * [hexHighlight](https://github.com/vim-scripts/hexHighlight.vim) - inline color preview
 * [NERDTree Tabs](https://github.com/jistr/vim-nerdtree-tabs) - NERDTree's BBF
