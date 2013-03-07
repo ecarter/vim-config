@@ -41,3 +41,6 @@
 [submodule "plugins/processing"]
 	path = plugins/processing
 	url = https://github.com/sophacles/vim-processing.git
+[submodule "plugins/vim-gitgutter"]
+	path = plugins/vim-gitgutter
+	url = git://github.com/airblade/vim-gitgutter.git
