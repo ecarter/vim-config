@@ -21,3 +21,7 @@ set list " show invibles
 let NERDTreeIgnore=['\.DS_Store$', '\~$']
 let NERDTreeShowHidden=1
 
+" Powerline Settings¬
+let g:Powerline_symbols = 'fancy'
+set guifont=DejaVu\ Sans\ Mono\ for\ Powerline:h14
+
