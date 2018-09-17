@@ -37,6 +37,8 @@ Backup current `~/.janus` directory, update git submodules, and run `rake` on [j
 * [NERDTree Tabs](https://github.com/jistr/vim-nerdtree-tabs) - NERDTree's BBF
 * [Powerline](https://github.com/ecarter/vim-powerline) - must have vim gui tools
 * [SyntaxAttr](https://github.com/vim-scripts/SyntaxAttr.vim) - determine which attributes are which
+* [vim-pug](https://github.com/digitaltoad/vim-pug) - Vim syntax highlighting for Pug (formerly Jade) templates
+* [vim-pug-complete](https://github.com/dNitro/vim-pug-complete) - Vim omni-completion support for pug (formerly jade) template engine
 
 ## Language Support
 

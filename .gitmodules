@@ -44,3 +44,9 @@
 [submodule "plugins/vim-gitgutter"]
 	path = plugins/vim-gitgutter
 	url = git://github.com/airblade/vim-gitgutter.git
+[submodule "plugins/vim-pug"]
+	path = plugins/vim-pug
+	url = git://github.com/digitaltoad/vim-pug.git
+[submodule "plugins/vim-pug-complete"]
+	path = plugins/vim-pug-complete
+	url = https://github.com/dNitro/vim-pug-complete.git
